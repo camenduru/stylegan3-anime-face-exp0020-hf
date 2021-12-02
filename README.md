@@ -1,5 +1,5 @@
 ---
-title: Stylegan3 Anime Face Exp002
+title: StyleGAN3 Anime Face Generation (exp002)
 emoji: 📚
 colorFrom: pink
 colorTo: indigo
