@@ -82,7 +82,7 @@ gr.Interface(
     inputs=[
         gr.Slider(label='Seed',
                   minimum=0,
-                  maximum=10000000000,
+                  maximum=np.iinfo(np.uint32).max,
                   step=1,
                   value=3407851645),
         gr.Slider(label='Truncation psi',
